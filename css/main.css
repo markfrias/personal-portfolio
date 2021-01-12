@@ -47,9 +47,10 @@ nav {
     height: 60vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 100px 30vw 100px 0px;
+    padding: 100px 10vw;
+    display: flex;
 }
 
 .hero-text {
-    float: right;
+    align-self: center;
 }
