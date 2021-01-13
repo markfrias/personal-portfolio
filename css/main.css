@@ -41,8 +41,12 @@ nav {
 
 /* Hero styles */
 .hero {
+    background-image: url("../assets/images/hero.jpg");
+    background-position: 750px 950px;
+    background-repeat: inherit;
+
     margin-top: 100px;
-    background-color: rgba(196, 196, 196, 0.19);
+    
     height: 60vh;
     width: 100%;
     box-sizing: border-box;
