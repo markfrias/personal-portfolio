@@ -57,3 +57,10 @@ nav {
 .hero-text {
     align-self: center;
 }
+
+.blur {
+    background-color: black;
+    /*width: 50%;
+    height: 50px;
+    */
+}
