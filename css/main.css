@@ -39,6 +39,23 @@ nav {
     color: #f7d33e;
 }
 
+/* Main menu styles */
+
+
+#main-menu-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main-menu-items {
+    font-weight: 700;
+    font-size: 100%;
+}
+
+
 /* Hero styles */
 .hero {
     background-image: url("../assets/images/hero.jpg");
