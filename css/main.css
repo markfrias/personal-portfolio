@@ -43,14 +43,13 @@ nav {
 .main-menu {
     position: sticky;
     top: 0;
-    background-color: white;
     height: 100%;
 }
 
 #main-menu-list {
     list-style: none;
     padding-left: 0;
-    background-color: green;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     padding: 2vh 0;
@@ -59,7 +58,6 @@ nav {
 .main-menu-items {
     font-weight: 700;
     font-size: 100%;
-    border: solid 2px gray;
 }
 
 
