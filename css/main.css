@@ -116,7 +116,6 @@ nav {
 }
 
 .major-section {
-    height: 100vh;
     width: 100%;
     border-top: solid 2px white;
     border-bottom: solid 2px white;
@@ -128,6 +127,11 @@ nav {
     border: 0px;
     text-align: center;
     margin-top: 10vh;   
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
 }
 
 #skills-heading {
@@ -161,4 +165,14 @@ nav {
 
 .skill-ind > img {
     height: 100px;
+}
+
+/* Project section styles */
+#projects {
+    text-align: center;
+}
+
+#links {
+    text-decoration: none;
+    color: white;
 }
