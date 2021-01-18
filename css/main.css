@@ -84,7 +84,6 @@ nav {
     flex-direction: column;
     width: 100%;
     height: 30%;
-    align-self: end;
     justify-content: center;
     align-content: center;
     filter: opacity(75%);
