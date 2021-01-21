@@ -44,7 +44,7 @@ nav {
     position: sticky;
     top: 0;
     height: 100%;
-    filter: drop-shadow(0 0 0.75rem rgba(220, 20, 60, 0.2));
+    filter: drop-shadow(0 1px 20px rgba(47,249,36, 0.3));
     z-index: 1;
 }
 
@@ -134,7 +134,7 @@ nav {
 
 #skills-heading {
     font-size: 3em;
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
 }
 
 #skills-menu-list {
