@@ -63,7 +63,6 @@ nav {
     font-size: 100%;
 }
 
-
 /* Hero styles */
 .hero {
     background-image: url("../assets/images/hero.jpg");
@@ -71,7 +70,7 @@ nav {
     background-repeat: initial;
     margin-top: 2.5vh;
     height: 60vh;
-    min-height: 450px;
+    min-height: 500px;
     width: 100%;
     box-sizing: border-box;
     padding: 0px;
@@ -171,6 +170,26 @@ nav {
 .skill-ind > img {
     height: 100px;
 }
+
+/* Responsive styles for core containers */
+@media only screen and (min-width: 768px) {
+    .skill-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .contact-container > div {
+        width: 50%;
+    }
+}
+
 
 /* Project section styles */
 
