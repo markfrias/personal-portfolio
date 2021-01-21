@@ -44,7 +44,7 @@ nav {
     position: sticky;
     top: 0;
     height: 100%;
-    filter: drop-shadow(0 0 0.75rem rgba(220, 20, 60, 0.363));
+    filter: drop-shadow(0 0 0.75rem rgba(220, 20, 60, 0.2));
     z-index: 1;
 }
 
@@ -117,15 +117,13 @@ nav {
 
 .major-section {
     width: 100%;
-    border-top: solid 2px white;
-    border-bottom: solid 2px white;
-
+    text-align: center;
+   
 }
 
 /* Skills styles */
 #skills {
     border: 0px;
-    text-align: center;
     margin-top: 10vh;   
 }
 
@@ -136,6 +134,7 @@ nav {
 
 #skills-heading {
     font-size: 3em;
+    padding-bottom: 20vh;
 }
 
 #skills-menu-list {
@@ -143,7 +142,7 @@ nav {
     list-style-type: none;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0 0 10vh 0;
+    padding: 0 0 30vh 0;
 
 }
 
@@ -160,7 +159,7 @@ nav {
 }
 
 .skill-ind {
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
 }
 
 .skill-ind > img {
@@ -168,11 +167,26 @@ nav {
 }
 
 /* Project section styles */
-#projects {
+
+.links {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Education section styles */
+#degree {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Contact section styles */
+.contact-container {
+    
+}
+
+/* Footer section styles */
+.footer {
     text-align: center;
 }
 
-#links {
-    text-decoration: none;
-    color: white;
-}
+
