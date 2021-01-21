@@ -84,18 +84,23 @@ nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 30%;
+    height: auto;
     justify-content: center;
     align-content: center;
     filter: opacity(75%);
+    padding: 2vh 0vh;
     
 }
 
-.hero-text {
+.hero-text-container {
     font-size: 95%;
-    line-height: 100%;
     text-align: center;
+}
 
+.hero-text {
+    margin: 0;
+    padding: 1vh 0vh;
+    line-height: 100%;
 }
 
 /* Responsive styles for hero */
