@@ -55,7 +55,7 @@ nav {
     position: sticky;
     top: 0;
     height: 100%;
-    filter: drop-shadow(0 1px 20px rgba(47,249,36, 0.3));
+    filter: drop-shadow(0 1px 20px #e67d22ab);
     z-index: 1;
 }
 
