@@ -180,13 +180,21 @@ nav {
     
     #main-menu-list {
         padding: 2vh 25vw;
-        max-width: 500px;
     }
     
     
     .skill-container {
         flex-direction: row;
         justify-content: center;
+    }
+
+    .skill-ind > p {
+        box-sizing: border-box;
+        padding: 0px 10%;
+    }
+
+    #skills-menu-list {
+        padding: 0 25vw 30vh 25vw;
     }
 
     .contact-container {
@@ -199,6 +207,19 @@ nav {
     .contact-container > div {
         width: 30%;
     }
+
+    #contact > .skill-container {
+        box-sizing: border-box;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        justify-content: center;
+    }
+    
+    #contact > .skill-container > .skill-ind {
+        width: 33%;
+    }
+
+    
 
     
 
@@ -233,3 +254,6 @@ nav {
 }
 
 
+#contact > .skill-container > .skill-ind {
+    width: 100%;
+}
