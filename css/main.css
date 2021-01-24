@@ -70,7 +70,7 @@ nav {
 }
 
 .main-menu-items {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 100%;
 }
 
@@ -256,9 +256,6 @@ nav {
 
 }
 
-@media only screen and (min-width: 871px) {
-
-}
 
 
 /* Project section styles */
@@ -285,4 +282,26 @@ nav {
 
 #contact > .skill-container > .skill-ind {
     width: 100%;
+}
+
+/* Styles for dark and light mode */
+@media (prefers-color-scheme: light) {
+    html, body, .skill-ind {
+        background-color: white;
+        color: black;
+    }
+
+    #main-menu-list {
+        background-color: #E67E22;
+        color: white;
+    }
+
+    .blur {
+        background: rgb(255,255, 255);
+        color: #000000;
+    }
+
+    .skills-menu-item > a {
+        color: black;
+    }
 }
