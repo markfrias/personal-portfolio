@@ -224,6 +224,10 @@ nav {
         flex-wrap: wrap;
     }
 
+    #contact {
+        margin-bottom: 15vh;
+    }
+
     .contact-container > div {
         width: 30%;
     }
@@ -267,6 +271,7 @@ nav {
 }
 
 /* Contact section styles */
+
 
 /* Footer section styles */
 .footer {
