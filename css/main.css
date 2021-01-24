@@ -8,6 +8,11 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Nav bar styles */
 #title {
     text-transform: uppercase;
