@@ -151,6 +151,11 @@ nav {
     padding-right: 2vw;
 }
 
+.skill-ind {
+    flex-basis: 33%;
+
+}
+
 .skills-heading {
     font-size: 3.5em;
     padding-bottom: 10vh;
@@ -197,6 +202,8 @@ nav {
     .skill-container {
         flex-direction: row;
         justify-content: center;
+        padding-left: 15vw;
+        padding-right: 15vw;
     }
 
     .skill-subheading {
@@ -240,7 +247,7 @@ nav {
     }
     
     #contact > .skill-container > .skill-ind {
-        width: 33%;
+        width: 50%;
     }
 
     
@@ -250,10 +257,7 @@ nav {
 }
 
 @media only screen and (min-width: 871px) {
-    .skill-container {
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
+
 }
 
 
