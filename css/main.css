@@ -305,4 +305,8 @@ nav {
     .skills-menu-item > a {
         color: black;
     }
+
+    .links {
+        color: black;
+    }
 }
