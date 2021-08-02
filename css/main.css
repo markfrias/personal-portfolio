@@ -150,6 +150,7 @@ nav {
     flex-direction: column;
     padding-left: 2vw;
     padding-right: 2vw;
+    flex-wrap: wrap;
 }
 
 .skill-ind {
