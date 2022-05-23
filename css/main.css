@@ -207,6 +207,10 @@ nav {
     height: 100px;
 }
 
+.skill-ind > p {
+    max-width: 75ch;
+}
+
 /* Responsive styles for core containers */
 @media only screen and (min-width: 768px) {
     
