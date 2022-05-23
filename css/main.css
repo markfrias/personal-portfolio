@@ -77,52 +77,66 @@ nav {
 
 /* Hero styles */
 .hero {
-    background-image: url("../assets/images/hero.jpg");
-    background-position: 790px 950px;
-    background-repeat: initial;
-    margin-top: 2.5vh;
-    height: 60vh;
-    min-height: 500px;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.blur {
-    background: rgb(0,0,0);
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: auto;
     justify-content: center;
-    align-content: center;
-    filter: opacity(75%);
-    padding: 2vh 0vh;
-    
+    align-items: center;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 80vh;
+    background-image: url(/assets/images/meiying-ng-OrwkD-iWgqg-unsplash.jpg);
+    background-position: 70%;
+    gap: 10%;
 }
 
-.hero-text-container {
-    font-size: 95%;
+.hero-pic {
+   width: 20%;
+   min-width: 175px;
+   max-width: 500px;
+   min-height: 175px;
+   max-height: 500px;
+}
+
+.hero-pic > img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-textgrp {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero-text {
-    margin: 0;
-    padding: 1vh 0vh;
-    line-height: 100%;
+.hero-textgrp > h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
 }
+
+.hero-textgrp > h3 {
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+
 
 /* Responsive styles for hero */
 @media only screen and (min-width: 1280px) {
     .hero {
-        background-position: 0px 950px;
+        flex-direction: row;
+        gap: 10%;   
     }
 
-    .blur {
-        height: 25%;
+    .hero-textgrp > h2 {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    
+    .hero-textgrp > h3 {
+        font-weight: 200;
+        font-size: 1.5rem;
     }
 
 }
